@@ -6,6 +6,7 @@ async function bitcoin(req, res) {
     const menorPreco24h = apiMercadoJson.ticker.low;
     const volume24h = apiMercadoJson.ticker.vol;
 
+
     res.statusCode = 200
     res.json({
         maiorPreco24h: maiorPreco24h,
